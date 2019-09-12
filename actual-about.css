@@ -17,6 +17,10 @@ p {
     margin-right: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 #main {
     display: grid;
     grid-gap: 2.2rem;
@@ -48,3 +52,21 @@ p {
     margin-left: 1rem;
 }
 
+.nav {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 5rem;
+    height: 2rem;
+    margin-left: 2rem; 
+    transition: all .09s linear;
+}
+
+.nav:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav__content {
+    padding-top: 7px;
+}

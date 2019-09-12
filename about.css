@@ -4,7 +4,9 @@ body {
     display: column;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .word-style {
     color: white;
@@ -14,13 +16,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     flex: 1;
+    transition: all .19s linear;
 }
 
 .word-style:hover {
     background-image: url(https://media.giphy.com/media/2vmho5c3fKQ2I8yc7v/giphy.gif);
-    transition: all .19s linear;
 }
 
-a {
-    text-decoration: none;
+.word-style:not(:hover) {
+    animation: swell 3s ease-in-out infinite;
 }
+
+@keyframes swell {
+    from {
+        transform: scale(.9);
+    }
+     50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(.9);
+    }
+}
+
