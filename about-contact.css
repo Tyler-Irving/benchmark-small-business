@@ -12,11 +12,34 @@ a {
     text-decoration: none;
 }
 
-#word-style {
+.word-style {
     color: white;
     font-size: 10rem;
+    margin-left: 26rem;
+    width: 25rem;
     background-color: black;
     text-align: center;
+}
+
+.word-style:hover {
+    background-image: url(https://media.giphy.com/media/LzRrW7v0WFLzO/giphy.gif);
+    background-repeat: no-repeat;
+}
+
+.word-style:not(:hover) {
+    animation: swell 2.5s ease-in-out infinite;
+}
+
+@keyframes swell {
+    from {
+        transform: scale(.9);
+    }
+     50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(.9);
+    }
 }
 
 #phone-fit {

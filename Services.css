@@ -33,6 +33,28 @@ a {
     font-size: 10rem;
     background-color: black;
     text-align: center;
+    width: 25rem;
+    margin-left: 26.3rem;
+}
+
+.word-style:hover {
+    background-image: url(https://media.giphy.com/media/9JcMdbuGdV32fkswuR/giphy.gif);
+}
+
+.word-style:not(:hover) {
+    animation: swell 3s ease-in-out infinite;
+}
+
+@keyframes swell {
+    from {
+        transform: scale(.9);
+    }
+     50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(.9);
+    }
 }
 
 .box {
