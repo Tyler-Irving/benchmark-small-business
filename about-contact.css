@@ -5,45 +5,62 @@
 body {
     background-color: black;
     color: white;
-}
-
-p {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    position: relative;
 }
 
 a {
     text-decoration: none;
 }
 
-
-#main {
-    display: grid;
-    grid-gap: 2.2rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 30px;
-}
-
 #word-style {
     color: white;
     font-size: 10rem;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     text-align: center;
 }
 
-#image-fit {
-    width: 50px;
-    height: 50px;
-    padding: 5rem;
+#phone-fit {
+    position: absolute;
+    left: 120px;
+    bottom: 362px;
+    width: 25px;
+    height: 25px
+}
+
+#mail {
+    position: absolute;
+    left: 150px;
+    bottom: 362px;
+    width: 25px;
+    height: 25px;
+}
+
+#about {
+    color: black;
+    margin: 2rem;
+    font-size: 19pt;
 }
 
 
 .box {
-    border: .2rem solid white;
+    width: 45rem;
+    height: 25rem;
     background-color: white;
-    color: black;
-    margin-left: 35rem;
+    position: absolute;
+    left: 15.99rem;
+    border: 5px solid gray;
+}
+
+.contact {
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+}
+
+.title {
+    position: absolute;
+    left: 5px;
+    bottom: 342px;
+    color: white;
 }
 
