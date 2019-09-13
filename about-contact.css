@@ -50,22 +50,22 @@ a {
 
 #home-button {
     position: absolute;
-    left: 553px;
-    bottom: 349px;
+    left: 620px;
+    bottom: 374px;
     color: black;
     height: 1.5rem;
-    width: 4.2rem;
+    width: 3rem;
     background-color: white;
     /* border: 3px solid gray; */
 }
 
 #services-button {
     position: absolute;
-    left: 627px;
-    bottom: 349px;
+    left: 670px;
+    bottom: 374px;
     color: black;
     height: 1.5rem;
-    width: 5.4rem;
+    width: 3rem;
     background-color: white;
     /* border: 3px solid gray; */
 }
