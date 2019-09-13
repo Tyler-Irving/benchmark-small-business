@@ -59,21 +59,19 @@ a {
     margin-left: 1rem;
 }
 
-.nav {
+.nav-button {
     text-align: center;
-    background-color: white;
+    background-color: #ffffff;
     color: black;
-    width: 5rem;
-    height: 2rem;
+    /* width: 5rem;
+    height: 2rem; */
     margin-left: 2rem; 
     transition: all .09s linear;
 }
 
-.nav:hover {
+.nav-button:hover {
     background-color: black;
     color: white;
 }
 
-.nav__content {
-    padding-top: 7px;
-}
+
