@@ -41,6 +41,44 @@ a {
     font-size: 19pt;
 }
 
+#title {
+    position: absolute;
+    left: 5px;
+    bottom: 342px;
+    color: white;
+}
+
+#home-button {
+    position: absolute;
+    left: 553px;
+    bottom: 349px;
+    color: black;
+    height: 1.5rem;
+    width: 4.2rem;
+    background-color: white;
+    /* border: 3px solid gray; */
+}
+
+#services-button {
+    position: absolute;
+    left: 627px;
+    bottom: 349px;
+    color: black;
+    height: 1.5rem;
+    width: 5.4rem;
+    background-color: white;
+    /* border: 3px solid gray; */
+}
+
+#home-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#services-button:hover {
+    background-color: black;
+    color: white;
+}
 
 .box {
     width: 45rem;
@@ -57,10 +95,5 @@ a {
     background-color: black;
 }
 
-.title {
-    position: absolute;
-    left: 5px;
-    bottom: 342px;
-    color: white;
-}
+
 
