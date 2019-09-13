@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+#word-style {
+    color: white;
+    font-size: 10rem;
+    background-color: black;
+    text-align: center;
+}
+
+#phone-fit {
+    position: absolute;
+    left: 120px;
+    bottom: 362px;
+    width: 25px;
+    height: 25px
+}
+
+#mail {
+    position: absolute;
+    left: 150px;
+    bottom: 362px;
+    width: 25px;
+    height: 25px;
+}
+
+#about {
+    color: black;
+    margin: 2rem;
+    font-size: 19pt;
+}
+
+#title {
+    position: absolute;
+    left: 5px;
+    bottom: 342px;
+    color: white;
+}
+
+#home-button {
+    position: absolute;
+    left: 200px;
+    bottom: 342px;
+    color: white;
+}
+
+.box {
+    width: 45rem;
+    height: 25rem;
+    background-color: white;
+    position: absolute;
+    left: 15.99rem;
+    border: 5px solid gray;
+}
+
+.contact {
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+}
+
+
+
