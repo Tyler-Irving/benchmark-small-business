@@ -75,32 +75,32 @@ a {
     position: absolute;
     left: 620px;
     bottom: 374px;
-    color: black;
+    color: #ffffff;
     height: 1.5rem;
     width: 3rem;
-    background-color: white;
-    /* border: 3px solid gray; */
+    background-color: black;
+    border-radius: 8%;
 }
 
 #services-button {
     position: absolute;
     left: 670px;
     bottom: 374px;
-    color: black;
+    color: #ffffff;
     height: 1.5rem;
     width: 3rem;
-    background-color: white;
-    /* border: 3px solid gray; */
+    background-color: black;
+    border-radius: 8%;
 }
 
 #home-button:hover {
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    color: black;
 }
 
 #services-button:hover {
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    color: black;
 }
 
 .box {

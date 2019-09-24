@@ -64,11 +64,25 @@ a {
     position: relative;
     overflow: hidden;
     border: 5px solid gray;
+    max-height: 450px;
 }
 
 
 .box:hover {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm24m2isyazTKbn7DPrcJYsDQoYP2PJYxRxEvR3mGmJMxsOUiW);
+    max-height: 450px;
+}
+
+.box:hover h2 {
+    display: none;
+}
+
+.box:hover img {
+    display: none;
+}
+
+.box:hover p {
+    display: none;
 }
 
 .image-fit {
@@ -83,17 +97,18 @@ a {
 
 .nav-button {
     text-align: center;
-    background-color: #ffffff;
-    color: black;
-    /* width: 5rem;
-    height: 2rem; */
+    background-color: black;
+    color: #ffffff;
+    width: 5rem;
+    height: 2rem;
     margin-left: 2rem; 
     transition: all .09s linear;
+    border-radius: 8%;
 }
 
 .nav-button:hover {
-    background-color: black;
-    color: white;
+    background-color: #ffffff;
+    color: black;
 }
 
 
