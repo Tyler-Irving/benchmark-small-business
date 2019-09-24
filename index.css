@@ -39,3 +39,23 @@ a {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+        display: flex;
+        display: column;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    .word-style {
+        color: white;
+        font-size: 10rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        flex: 1;
+        transition: all .19s linear;
+    }
+}
