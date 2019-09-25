@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Signika Negative', sans-serif;
+}
+
 .word-style {
     color: white;
     font-size: 10rem;
